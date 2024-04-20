@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regular Expressions</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Contoh Regular Expressions</h1>
+
+<p><strong>1. Mengecek Email:</strong></p>
+<input type="text" id="emailInput" placeholder="Masukkan alamat email">
+<button onclick="checkEmail()">Cek Email</button>
+<p id="emailResult"></p>
+
+<p><strong>2. Mengecek Nomor Telepon:</strong></p>
+<input type="text" id="phoneInput" placeholder="Masukkan nomor telepon">
+<button onclick="checkPhone()">Cek Nomor Telepon</button>
+<p id="phoneResult"></p>
+
+<p><strong>3. Mengecek URL:</strong></p>
+<input type="text" id="urlInput" placeholder="Masukkan URL">
+<button onclick="checkURL()">Cek URL</button>
+<p id="urlResult"></p>
+
+<p><strong>4. Mengecek Tanggal (Format YYYY-MM-DD):</strong></p>
+<input type="text" id="dateInput" placeholder="Masukkan tanggal">
+<button onclick="checkDate()">Cek Tanggal</button>
+<p id="dateResult"></p>
+
+<p><strong>5. Mengecek Password:</strong></p>
+<input type="password" id="passwordInput" placeholder="Masukkan password">
+<button onclick="checkPassword()">Cek Password</button>
+<p id="passwordResult"></p>
+</div>
+<!-- Bentuk Password yang valid:
+1. Passowrd123
+2. PasswOrd
+3. IniPassword123! -->
+<script src="script.js"></script>
+</body>
+</html>
